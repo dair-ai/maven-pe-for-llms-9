@@ -73,4 +73,26 @@ pip install -r requirements.txt
 
 Run the prepare exercise notebook (found inside the [exercises folder](https://github.com/dair-ai/maven-pe-for-llms-9/blob/main/exercises/PE_for_LLMs_Preparation_Exercise.ipynb)). Before attempting the preparation exercise, add a `.env` file to your root folder and add your `OPENAI_API_KEY`.
 
+Create a `.env` file by copying `.env.template`:
+```sh 
+cp .env.template .env
+```
+
+Add your OpenAI API key to the `.env` file (not the .env.template file).
+
+Start a local Jupyter Lab server:
+```sh
+jupyter lab .
+```
+
+Execute the code in `exercises/PE_for_LLMs_Preparation_Exercise.py`. If you see an output similar to the following everything works as intended:
+
+```
+positive
+neutral
+neutral
+positive
+```
+
+
 That's it! You're all set to start working on the notebooks and exercises.
