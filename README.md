@@ -17,11 +17,11 @@ git clone https://github.com/dair-ai/maven-pe-for-llms-9.git
 cd maven-pe-for-llms-9
 ```
 
-If you already have the repo, go into it and make sure you have the latest.
+If you already cloned the repo, navigate into it and make sure you have the latest version.
 
 ```sh
 cd maven-pe-for-llms-9
-git pull origin master
+git pull origin main
 ```
 
 If you have downloaded the zipped file instead, unzip it and go into the directory.
